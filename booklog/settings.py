@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['booklog.herokuapp.com', 'localhost','8000-anad30-bookblog-wk7kqsd454e.ws.codeinstitute-ide.net']
+ALLOWED_HOSTS = ['bookblog.herokuapp.com', 'localhost','8000-anad30-bookblog-wk7kqsd454e.ws.codeinstitute-ide.net']
 
 
 # Application definition
@@ -56,7 +56,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'booklog.urls'
+ROOT_URLCONF = 'bookblog.urls'
 
 TEMPLATES = [
     {
@@ -74,7 +74,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'booklog.wsgi.application'
+WSGI_APPLICATION = 'bookblog.wsgi.application'
 
 
 # Database
